@@ -1,0 +1,244 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("images/komandoo-island-maldives.jpg");
+    background-size: 100% 650px;
+    background-repeat: no-repeat;
+    background-color:#e5ebed; 
+}
+
+#wrap {
+    margin: 20px;
+    border: 1px solid black;
+}
+
+#navbar {
+    border: 1px solid black;
+    width: 70%;
+    margin: auto;
+}
+
+#navbar li {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    display: inline;
+    padding: 5% 5%;
+    color: white;
+}
+
+.header {
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+    padding: 150px 0px 150px 0px;
+    color: white;
+}
+
+.header h1{
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.header h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.content1 {
+    width: 100%;
+    height: 860px;
+    margin-top: 80px;
+    border: 2px solid red;
+    background-color:white;
+    margin-bottom: 20px;
+  
+}
+
+.checkin-checkout {
+    border: 1px solid black;
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.checkin-checkout label{
+    width: 20%;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-transform: capitalize;
+
+}
+
+.checkin-checkout input {
+    width: 280px;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+#adult {
+    width: 50px;
+}
+
+#kids {
+    width: 50px;
+}
+
+.checkin-checkout td{
+    text-align: left;
+    padding: 0px 8px 0px 8px;
+}
+
+.checkin-checkout button {
+    background-color: #9de8e5;
+    width: 170px;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.content1 h4 {
+    text-align: center;
+    color: grey;
+    font-weight: normal;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: .2em;
+    letter-spacing: .1em;
+}
+
+.stay-beautiful {
+    text-align: center;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.our-hotel {
+    width: 30%;
+    background-color: #6aa3a2;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 71.5px 0px 71.5px 0px;
+    float: left;
+ }
+
+.our-hotel h1 {
+    font-weight: normal;
+}
+
+
+.our-hotel-image img {
+    width:70%;
+    height: 260px;
+    display:block;
+    clear: right;
+}
+
+.book-now-image img {
+    width: 30%;
+    height: 260px;
+    display: block;
+    clear: right;
+}
+
+.book-now-image img {
+    width: 30%;
+    height: 260px;
+    float: left;
+}
+
+.book-now-p {
+    float: left;
+    width: 70%;
+    height: 260px;
+    text-align: center;
+    background-color: white;
+    clear: right;    
+}
+
+.book-now-p p {
+    width: 90%;
+    margin:auto;
+    margin-top:70px;
+    color: grey;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.content-2 {
+    width: 100%;
+    border: 1px solid blue ;
+    height: 265px;
+    margin-top: 40px;
+}
+
+
+.content-2 img {
+    width: 60%;
+    /*margin-top: 20px;*/
+    float: left;
+    clear: right;
+}
+
+.content-2 h2 {
+    width: 40%;
+    height: 143px;
+    padding-top: 120px;
+    float: left;
+    clear: right;
+    color: white;
+    font-family: monospace;
+    background-color:#6aa3a2;
+    text-align: center;
+    /*margin-top: 20px;*/
+    margin:0;
+}
+
+.content-3 {
+    border: 2px solid yellow;
+    width: 100%;
+    height: 250px;
+    background-color: white;
+}
+
+.content-3 p {
+    border: 1px solid yellow;
+    padding-top: 60px;
+    color: grey;
+    text-align: center;
+    width: 80%;
+    margin:auto;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.content-4 {
+    border: 2px solid purple;
+    width: 100%;
+    height: 270px;
+}
+
+.content-4-camilatiago {
+    width: 60%;
+    /*padding-left: 20px;*/
+    background-color: cyan;
+    float: left;
+}
+
+.content-4 img{
+    width: 35%;
+    height: 270px;
+    float: left;
+}
