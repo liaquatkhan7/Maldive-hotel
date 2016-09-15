@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-image: url("images/komandoo-island-maldives.jpg");
+    background-image: url("images/maldives-islands-2-Small-Size.jpg");
     background-size: 100% 650px;
     background-repeat: no-repeat;
     background-color:#e5ebed; 
@@ -9,11 +9,11 @@ body {
 
 #wrap {
     margin: 20px;
-    border: 1px solid black;
+
 }
 
 #navbar {
-    border: 1px solid black;
+  
     width: 70%;
     margin: auto;
 }
@@ -27,7 +27,7 @@ body {
 }
 
 .header {
-    border: 1px solid black;
+
     width: 80%;
     margin: auto;
     padding: 150px 0px 150px 0px;
@@ -54,14 +54,14 @@ body {
     width: 100%;
     height: 860px;
     margin-top: 80px;
-    border: 2px solid red;
+
     background-color:white;
     margin-bottom: 20px;
   
 }
 
 .checkin-checkout {
-    border: 1px solid black;
+
     margin-top: 80px;
     margin-left: 10px;
     margin-right: 10px;
@@ -163,23 +163,29 @@ body {
     float: left;
     width: 70%;
     height: 260px;
-    text-align: center;
+    text-align: left;
     background-color: white;
     clear: right;    
 }
 
 .book-now-p p {
     width: 90%;
-    margin:auto;
-    margin-top:70px;
+    margin-left: 50px;
+    margin-top: 70px;
     color: grey;
     font-family: monospace;
     font-size: 16px;
 }
 
+.book-now-p a {
+
+    margin-left: 50px;
+}
+
+
 .content-2 {
     width: 100%;
-    border: 1px solid blue ;
+
     height: 265px;
     margin-top: 40px;
 }
@@ -207,14 +213,14 @@ body {
 }
 
 .content-3 {
-    border: 2px solid yellow;
+
     width: 100%;
     height: 250px;
     background-color: white;
 }
 
 .content-3 p {
-    border: 1px solid yellow;
+
     padding-top: 60px;
     color: grey;
     text-align: center;
@@ -225,7 +231,7 @@ body {
 }
 
 .content-4 {
-    border: 2px solid purple;
+
     width: 100%;
     height: 270px;
 }
@@ -233,12 +239,77 @@ body {
 .content-4-camilatiago {
     width: 60%;
     /*padding-left: 20px;*/
-    background-color: cyan;
+    background-color: #6aa3a2;
     float: left;
+    padding-left: 45px;
+    height: 270px;
+}
+
+.color-green {
+    color: #6aa3a2;
+}
+
+.color-white {
+    color:white;
 }
 
 .content-4 img{
     width: 35%;
     height: 270px;
     float: left;
+}
+
+.footer-table {
+    width: 100%;
+}
+
+.footer-table th {
+    width: 300px;
+
+    text-align: left;   
+}
+
+.footer-table td {
+    width: 100px;
+
+}
+
+.footer-table img {
+    width: 20px;
+    height: 20px;
+    padding-right: 15px;
+}
+
+.footer-table th {
+    padding-bottom: 30px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: normal;
+    color: dimgray;
+    font-size: 18px;
+}
+
+.footer-table td {
+    color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.footer-input {
+    width: 250px;
+    height: 30px;
+    margin: auto;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+}
+
+.footer-table button {
+    width: 250px;
+    height: 30px;
+    margin: auto;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    background-color: dimgrey; 
 }
